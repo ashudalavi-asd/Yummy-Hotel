@@ -1,0 +1,426 @@
+
+
+#top
+{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+
+
+#cmp_nm
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 7px;
+    margin-left: 80px;
+}
+@media screen and (max-width:990px)
+{#cmp_nm
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 40px;
+}  
+}
+
+.navbar
+{
+margin-left: 150px;
+ font-size:17px;
+ font-weight: 500;
+ transition: 0.3s;
+ justify-content: space-between;
+
+}
+
+
+.navbar .navbar-toggler
+{
+font-size: 15px;
+margin-top: 5px;
+color: black;
+margin-left: -50px;
+}
+ @media screen and (max-width:990px)
+{.navbar .navbar-toggler
+{
+    font-size: 15px;
+    margin-top: 5px;
+    color: black;
+    margin-left: 40px; 
+}  
+} 
+
+
+.navbar .nav-item 
+{
+    padding:20px;
+    
+}
+
+.navbar .nav-item:hover 
+{
+color: black;
+font-size: 19px;
+font-weight: 700;
+}
+
+@media screen and (max-width:472px)
+{#home
+{
+    background-color: rgb(242, 242, 242);
+    height: auto;
+}  
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-left: 100px; */
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+.col-lg-12
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#spn1
+{
+    font-size: 28px; 
+    color: gray;
+   
+}
+
+
+#abt-img
+{
+    height: 500px;
+    padding: 20px;
+    width: 100%;
+}
+/* @media screen and (max-width:990px)
+{#abt-img
+{
+    margin-top: -1300px;
+    height: 400px; 
+}  
+} */
+
+
+#btn-booking2
+{
+    background-color:rgb(250, 9, 9);
+    border-color: rgb(250, 9, 9);
+    border-radius: 50px;
+    width: auto;
+    height:40px;
+    font-size: 17px;
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 25px;
+}
+
+
+#about
+{
+    width: 100%;
+    background-color: white;
+    height: auto;
+}
+
+h6
+{
+    padding-top: 25px;
+    color: gray;
+}
+
+h3
+{
+    color: brown;
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+#abt-cnt2
+{
+    
+    width: 100%;
+    margin-right: 50px;
+    padding-left: 15px; 
+}
+
+.fa
+{
+  font-size: 25px;
+  color: red;
+
+}
+
+
+.abt-cnt2-spn
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding-left: 10px; 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.abt-cnt2-1
+{
+    display: flex;
+    margin-top: -35px; 
+}
+
+@media screen and (max-width:990px)
+{#carouselExampleControls
+{
+    height:200px; 
+}  
+}
+
+
+
+.carousel-inner
+{
+    height: 400px;
+}
+
+
+
+.carousel-inner .carousel-item
+{
+    height: 400px;  
+}
+
+#about-2
+{
+    width: 100%;
+    height: auto;
+    background-color:rgb(242, 242, 242) ;
+    margin-top: 10px;
+}
+@media screen and (max-width:990px)
+{#about-2
+{
+    width: 100%;
+    height: auto;
+    background-color:rgb(242, 242, 242) ; 
+}  
+}
+
+h4
+{
+  color: white;
+  font-size: 35PX;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.about-2-1
+{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(206, 18, 18);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about-2-1-cnt
+{
+  color: white;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.about-2-2
+{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+.about-2-2-cnt
+{
+  color: black;
+  font-size: 15px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+h2
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+  font-size: 35PX;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+#menus
+{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.nav-tabs
+{
+    justify-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.nav-item
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    
+}
+
+.nav-link 
+{
+    color: black;
+}
+
+.card
+{
+    height: 400px;
+    padding: 25px;
+    border: none;
+}
+.card-img-top
+{
+    width: 100%;
+}
+
+.card-body
+{
+    height: 100px;
+}
+
+.card-text
+{
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.price
+{
+    color: red;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -20px; 
+}
+
+h5
+{
+ color: brown;
+}
+
+@media screen and (max-width:990px)
+{#testimonials
+{
+    height:200px; 
+}  
+}
+
+.carousel-indicators
+{
+   background-color: brown;
+   margin-left: 550px;
+   margin-right: 550px;
+}
+
+.carousel-inner
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+#chef-container
+{
+    width: 100%;
+    height: auto;
+    background-color:rgb(242, 242, 242) ;
+    border-radius: 25px;
+}
+
+.card-img-top2:hover
+{
+   width: 27rem ;
+   height: 370px ;
+}
+.card-img-top2
+{
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.card-body2
+{
+    height: auto;
+}
+.chef-spn1
+{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.chef-spn2
+{
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+#booking-container
+{
+    width: 100%;
+    height: auto;
+}
+
+b
+{
+ color: white;
+ font-size: 20px;
+
+}
+
+.footer-b
+{
+    color: white;
+    font-size: 16px;
+}
+
+#b1
+{
+   margin-top: 50px;
+}
